@@ -1,0 +1,761 @@
+{\rtf1\adeflang1025\ansi\ansicpg1254\uc1\adeff0\deff0\stshfdbch0\stshfloch37\stshfhich37\stshfbi37\deflang1055\deflangfe1055\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fbidi \fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\fbidi \froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fbidi \fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}
+{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}{\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\f40\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Verdana;}
+{\f44\fbidi \fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Consolas;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0302020204030204}Calibri Light;}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f45\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\f46\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f48\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f49\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f50\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f51\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f52\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f53\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f55\fbidi \fswiss\fcharset238\fprq2 Arial CE;}{\f56\fbidi \fswiss\fcharset204\fprq2 Arial Cyr;}
+{\f58\fbidi \fswiss\fcharset161\fprq2 Arial Greek;}{\f59\fbidi \fswiss\fcharset162\fprq2 Arial Tur;}{\f60\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f61\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}
+{\f62\fbidi \fswiss\fcharset186\fprq2 Arial Baltic;}{\f63\fbidi \fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f65\fbidi \fmodern\fcharset238\fprq1 Courier New CE;}{\f66\fbidi \fmodern\fcharset204\fprq1 Courier New Cyr;}
+{\f68\fbidi \fmodern\fcharset161\fprq1 Courier New Greek;}{\f69\fbidi \fmodern\fcharset162\fprq1 Courier New Tur;}{\f70\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f71\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}
+{\f72\fbidi \fmodern\fcharset186\fprq1 Courier New Baltic;}{\f73\fbidi \fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f385\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}{\f386\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}
+{\f388\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f389\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f392\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}{\f393\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}
+{\f415\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\f416\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\f418\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\f419\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\f420\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\f421\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\f422\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f423\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}
+{\f445\fbidi \fswiss\fcharset238\fprq2 Verdana CE;}{\f446\fbidi \fswiss\fcharset204\fprq2 Verdana Cyr;}{\f448\fbidi \fswiss\fcharset161\fprq2 Verdana Greek;}{\f449\fbidi \fswiss\fcharset162\fprq2 Verdana Tur;}
+{\f452\fbidi \fswiss\fcharset186\fprq2 Verdana Baltic;}{\f453\fbidi \fswiss\fcharset163\fprq2 Verdana (Vietnamese);}{\f485\fbidi \fmodern\fcharset238\fprq1 Consolas CE;}{\f486\fbidi \fmodern\fcharset204\fprq1 Consolas Cyr;}
+{\f488\fbidi \fmodern\fcharset161\fprq1 Consolas Greek;}{\f489\fbidi \fmodern\fcharset162\fprq1 Consolas Tur;}{\f492\fbidi \fmodern\fcharset186\fprq1 Consolas Baltic;}{\f493\fbidi \fmodern\fcharset163\fprq1 Consolas (Vietnamese);}
+{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhimajor\f31528\fbidi \fswiss\fcharset238\fprq2 Calibri Light CE;}{\fhimajor\f31529\fbidi \fswiss\fcharset204\fprq2 Calibri Light Cyr;}
+{\fhimajor\f31531\fbidi \fswiss\fcharset161\fprq2 Calibri Light Greek;}{\fhimajor\f31532\fbidi \fswiss\fcharset162\fprq2 Calibri Light Tur;}{\fhimajor\f31533\fbidi \fswiss\fcharset177\fprq2 Calibri Light (Hebrew);}
+{\fhimajor\f31534\fbidi \fswiss\fcharset178\fprq2 Calibri Light (Arabic);}{\fhimajor\f31535\fbidi \fswiss\fcharset186\fprq2 Calibri Light Baltic;}{\fhimajor\f31536\fbidi \fswiss\fcharset163\fprq2 Calibri Light (Vietnamese);}
+{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31573\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\fhiminor\f31574\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}
+{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green0\blue0;\red0\green0\blue0;\red5\green99\blue193;\red96\green94\blue92;\red225\green223\blue221;\red248\green249\blue250;
+\red73\green80\blue87;\red30\green30\blue30;\red212\green212\blue212;\red86\green156\blue214;\red156\green220\blue254;\red206\green145\blue120;\red0\green0\blue205;\red165\green42\blue42;\red249\green249\blue249;\red68\green68\blue68;
+\red169\green195\blue219;}{\*\defchp \f37 }{\*\defpap \ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \spriority0 Normal;}{
+\s1\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs48\alang1025 \ltrch\fcs0 \b\fs48\lang1033\langfe1033\kerning36\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext1 \slink15 \sqformat \spriority9 \styrsid7211640 heading 1;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af37\afs20\alang1025 \ltrch\fcs0 \f37\fs20\lang1055\langfe1055\cgrid\langnp1055\langfenp1055 \snext11 \ssemihidden \sunhideused Normal Table;}{\*\cs15 
+\additive \rtlch\fcs1 \af0 \ltrch\fcs0 \b\f0\fs48\kerning36 \sbasedon10 \slink1 \slocked \spriority9 \styrsid7211640 Ba\'fel\'fdk 1 Char;}{\*\cs16 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \sbasedon10 \spriority0 \styrsid4348881 tagnamecolor;}{
+\s17\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext17 \ssemihidden \sunhideused \styrsid419840 Normal (Web);}{\*\cs18 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \b \sbasedon10 \sqformat \spriority22 \styrsid419840 Strong;}{\*\cs19 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf19 
+\sbasedon10 \sunhideused \styrsid7870171 Hyperlink;}{\*\cs20 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \cf20\chshdng0\chcfpat0\chcbpat21 \sbasedon10 \ssemihidden \sunhideused \styrsid7870171 Unresolved Mention;}{\*\cs21 \additive \rtlch\fcs1 \af0 
+\ltrch\fcs0 \sbasedon10 \spriority0 \styrsid4348881 tagcolor;}{\*\cs22 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \sbasedon10 \spriority0 \styrsid4348881 attributecolor;}{\*\cs23 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \sbasedon10 \spriority0 \styrsid4348881 
+attributevaluecolor;}{\s24\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\contextualspace \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang4096\langfe1033\loch\f37\hich\af37\dbch\af37\cgrid\langnp4096\langfenp1033 \sbasedon0 \snext24 \sqformat \spriority34 \styrsid9972959 List Paragraph;}}{\*\listtable{\list\listtemplateid-841212000\listhybrid{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\leveltemplateid167922966\'01\u-3913 ?;}{\levelnumbers;}\loch\af3\hich\af3\dbch\af31506\fbias0 \fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 
+\fi-360\li3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\lin4320 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\lin6480 }{\listname ;}\listid455029688}{\list\listtemplateid1089603158\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698703\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-360\li720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6480\lin6480 }{\listname ;}\listid505679094}{\list\listtemplateid-283090914\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-360\li720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6480\lin6480 }{\listname ;}\listid737363497}{\list\listtemplateid1828254442\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-360\li720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6480\lin6480 }{\listname ;}\listid1088573081}{\list\listtemplateid18616296\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-360\li720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6480\lin6480 }{\listname ;}\listid1203595592}{\list\listtemplateid1932933896\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-360\li927\lin927 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1647\lin1647 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2367\lin2367 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3087\lin3087 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3807\lin3807 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4527\lin4527 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5247\lin5247 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5967\lin5967 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6687\lin6687 }{\listname ;}\listid1642418004}{\list\listtemplateid145786864\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-360\li720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6480\lin6480 }{\listname ;}\listid1938904701}}{\*\listoverridetable{\listoverride\listid1088573081\listoverridecount0\ls1}{\listoverride\listid737363497
+\listoverridecount0\ls2}{\listoverride\listid1642418004\listoverridecount0\ls3}{\listoverride\listid1203595592\listoverridecount0\ls4}{\listoverride\listid505679094\listoverridecount0\ls5}{\listoverride\listid1938904701\listoverridecount0\ls6}
+{\listoverride\listid455029688\listoverridecount9{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}\ls7}}{\*\pgptbl {\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0
+\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0
+\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp
+\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp36\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20
+\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp29\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp28\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0
+\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}
+{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}}{\*\rsidtbl \rsid18237\rsid203839\rsid271366\rsid419840\rsid461622\rsid656238\rsid729802\rsid938936\rsid1123187\rsid1205047\rsid1313819\rsid1725701\rsid1789242\rsid1852741\rsid2309814
+\rsid2445875\rsid2766090\rsid3107768\rsid3487806\rsid3692076\rsid3757351\rsid4348881\rsid4400964\rsid4461683\rsid4854511\rsid5007052\rsid5061173\rsid5261331\rsid5463752\rsid5514247\rsid5572205\rsid5715716\rsid5974697\rsid6048041\rsid6167322\rsid6553747
+\rsid6622753\rsid6640507\rsid6701982\rsid6756767\rsid6900130\rsid7085974\rsid7166405\rsid7211640\rsid7421131\rsid7671025\rsid7869835\rsid7870171\rsid8279518\rsid8612798\rsid8871623\rsid9050814\rsid9142194\rsid9313612\rsid9383074\rsid9512271\rsid9972959
+\rsid10424335\rsid10517237\rsid10638698\rsid11014437\rsid11433847\rsid11486487\rsid11615946\rsid11998210\rsid12062361\rsid12084405\rsid12475895\rsid12601691\rsid12927713\rsid13980698\rsid14091826\rsid14226479\rsid14581227\rsid14962404\rsid15209645
+\rsid15227869\rsid15403706\rsid15812671\rsid15994060\rsid15997220\rsid16321504\rsid16337985\rsid16533901\rsid16583829}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info
+{\author User}{\operator ceyhun12 hac\'fdzade}{\creatim\yr2021\mo8\dy18\hr16\min53}{\revtim\yr2022\mo9\dy13\hr17\min2}{\version16}{\edmins9990}{\nofpages10}{\nofwords2093}{\nofchars11933}{\nofcharsws13999}{\vern31}}{\*\xmlnstbl {\xmlns1 http://schemas.mic
+rosoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\hyphhotz425\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120
+\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale130\rsidroot419840 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\headery708\footery708\colsx708\sectdefaultcl\sftnbj {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\s17\qc \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9972959 
+\cbpat22 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af37\afs40 \ltrch\fcs0 \cs18\b\f37\fs40\cf23\insrsid419840\charrsid9972959 <!doctype html>
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 \cbpat22 {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\cf23\insrsid9972959\charrsid9972959 Doctype}{
+\rtlch\fcs1 \af419\afs28 \ltrch\fcs0 \f419\fs28\cf23\insrsid9972959\charrsid9972959  yaz\'fdlmas\'fd web }{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\cf23\lang1055\langfe1033\langnp1055\insrsid9972959\charrsid9972959 s\u601\'3fhif\u601\'3fnin htm}{
+\rtlch\fcs1 \af419\afs28 \ltrch\fcs0 \f419\fs28\cf23\lang1055\langfe1033\langnp1055\insrsid9972959\charrsid9972959 l 5 standartlar\'fdna uy\'f0un y\'fd\'f0\'fdlmas\'fd dem\u601\'3fkdir.}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 
+\f37\fs28\cf23\lang1055\langfe1033\langnp1055\insrsid9972959\charrsid9972959 
+\par }\pard\plain \ltrpar\qc \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9972959 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af0\afs32 \ltrch\fcs0 \b\fs32\lang1068\langfe1033\langnp1068\insrsid9972959\charrsid9972959 HTML 5 il\u601\'3f g\u601\'3fl\u601\'3fn yenilikl\u601\'3fr:
+\par {\listtext\pard\plain\ltrpar \s24 \rtlch\fcs1 \af31507 \ltrch\fcs0 \f3\lang1068\langfe1033\langnp1068\langfenp1033\insrsid9972959 \loch\af3\dbch\af31506\hich\f3 \'b7\tab}}\pard\plain \ltrpar
+\s24\ql \fi-360\li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls7\adjustright\rin0\lin720\itap0\pararsid9972959\contextualspace \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang4096\langfe1033\loch\af37\hich\af37\dbch\af37\cgrid\langnp4096\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 HTML 5 }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\ul\lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 case sensitive deyil}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f419\lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af419\dbch\af37\loch\f419 \hich\f419 , kodlar\'fd\loch\f419  h}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 \hich\f37 m b\'f6\loch\f37 
+\hich\f37 y\'fc\loch\f37 k h}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 
+m d}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 \hich\f37 , ki\'e7
+\loch\f37 ik h}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 rfl}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 rl}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37  yaza bil}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 rik. 
+\par {\listtext\pard\plain\ltrpar \s24 \rtlch\fcs1 \af31507 \ltrch\fcs0 \f3\lang1068\langfe1033\langnp1068\langfenp1033\insrsid9972959 \loch\af3\dbch\af31506\hich\f3 \'b7\tab}\hich\af37\dbch\af37\loch\f37 HTML 5-d}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 \hich\f37  m\'fc}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 yy}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 n }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f419\ul\lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af419\dbch\af37\loch\f419 \hich\f419 medialarla ba\'f0\loch\f419 \hich\f419 l\'fd\loch\f419  taglar}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 
+\hich\af37\dbch\af37\loch\f37  g}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 
+\hich\af37\dbch\af37\loch\f37 lib (audio, picture, video, header, footer v}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37  s.). 
+\par {\listtext\pard\plain\ltrpar \s24 \rtlch\fcs1 \af31507 \ltrch\fcs0 \f3\lang1068\langfe1033\langnp1068\langfenp1033\insrsid9972959 \loch\af3\dbch\af31506\hich\f3 \'b7\tab}\hich\af37\dbch\af37\loch\f37 HTML 5- il}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37  b}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 rab}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 r }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\ul\lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 doctype}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37  g}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid9972959 \loch\af37\dbch\af37\hich\f37 \u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid9972959 \hich\af37\dbch\af37\loch\f37 ldi. 
+\par }\pard\plain \ltrpar\s17\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\tx1704\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9972959 \cbpat22 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf23\lang1068\langfe1033\langnp1068\insrsid9972959 \tab }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf23\lang1068\langfe1033\langnp1068\insrsid9972959\charrsid9972959 
+
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 \cbpat22 {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\cf23\insrsid419840\charrsid9972959 <html lang=\'94en
+\'94> page in hansi dilde oldugunu gosterir
+\par }{\rtlch\fcs1 \ab\af37\afs28 \ltrch\fcs0 \cs18\b\f37\fs28\cf23\insrsid419840\charrsid9972959 <html> :}{\rtlch\fcs1 \af419\afs28 \ltrch\fcs0 \f419\fs28\cf23\insrsid419840\charrsid9972959 \~Sayfadaki b\'fct\'fcn elemanlar <html> a\'e7\'fdl\'fd\'fe
+ etiketi ve </html> kapan\'fd\'fe etiketleri aras\'fdna gelir.\~
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \ab\af37\afs28 \ltrch\fcs0 \cs18\b\f37\fs28\insrsid419840\charrsid9972959 <head> :\~}{
+\rtlch\fcs1 \af419\afs28 \ltrch\fcs0 \f419\fs28\insrsid419840\charrsid9972959 Sayfa ile alakal\'fd a\'e7\'fdklamalar\'fdn yer ald\'fd\'f0\'fd k\'fds\'fdmd\'fdr. \'d6rne\'f0in sayfam\'fdz\'fdn arama motorlar\'fdnda hangi anahtar kelime ile bulunmas\'fdn
+\'fd istiyorsak burada belirtiyoruz yada sayfan\'fdn ba\'f0l\'fd oldu\'f0u harici kaynaklar\'fdn belirtilmesi, sayfa ba\'fel\'fd\'f0\'fd gibi sayfada direk g\'f6rmedi\'f0imiz ama sayfa ile alakal\'fd bilgilerin yer ald\'fd\'f0\'fd k\'fds\'fdmd\'fdr.
+
+\par }{\rtlch\fcs1 \ab\af37\afs28 \ltrch\fcs0 \cs18\b\f37\fs28\insrsid419840\charrsid9972959 <title> :\~}{\rtlch\fcs1 \af419\afs28 \ltrch\fcs0 \f419\fs28\insrsid419840\charrsid9972959 Taray\'fdc\'fd penceresinin sol \'fcst k\'f6sesindeki sayfa ba\'fel\'fd\'f0
+\'fdn\'fd burada\~belirtiyoruz.
+\par }{\rtlch\fcs1 \ab\af37\afs28 \ltrch\fcs0 \cs18\b\f37\fs28\insrsid419840\charrsid9972959 <meta> :\~}{\rtlch\fcs1 \af419\afs28 \ltrch\fcs0 \f419\fs28\insrsid419840\charrsid9972959 Sayfam\'fdz\'fd tan\'fdmlayan a\'e7\'fdklamalar\'fdn bulundu\'f0u k\'fds\'fd
+md\'fdr. Sayfa a\'e7\'fdklamas\'fd,sayfa ba\'fel\'fd\'f0\'fd, kullan\'fdlan karakter seti tan\'fdmlamas\'fd gibi i\'felemler burada tan\'fdmlan\'fdyor.
+\par }{\rtlch\fcs1 \ab\af37\afs28 \ltrch\fcs0 \cs18\b\f37\fs28\insrsid419840\charrsid9972959 <style> :\~}{\rtlch\fcs1 \af419\afs28 \ltrch\fcs0 \f419\fs28\insrsid419840\charrsid9972959 Sayfada kullan\'fdlan stil i\'felemlerinin tan\'fdmlamas\'fd yap\'fdl\'fdr.
+\'d6rne\'f0in arkaplan rengi yaz\'fd rengi yada nesnelerin hizalanmas\'fd gibi i\'felemler.
+\par }{\rtlch\fcs1 \ab\af37\afs28 \ltrch\fcs0 \cs18\b\f37\fs28\insrsid419840\charrsid9972959 <body> :\~\~}{\rtlch\fcs1 \af419\afs28 \ltrch\fcs0 \f419\fs28\insrsid419840\charrsid9972959 Html sayfas\'fd \'fczerinde g\'f6rd\'fc\'f0\'fcm\'fcz t\'fcm nesnelerin tan
+\'fdmlanm\'fd\'fe oldu\'f0u k\'fds\'fdmd\'fdr.\~
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af419\afs28 \ltrch\fcs0 \f419\fs28\insrsid419840\charrsid9972959 Bu etiketler html sayfam\'fdz\'fd
+n genel hatlar\'fdn\'fd olu\'feturan en genel }{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid419840\charrsid9972959 etiket t\'fcrleridir.\~
+\par Yeniki Butun hersey <html> </html> arasinda yazilir 2 hisseden ibaretdir <head> bura yuxari hissed gorunmeyen seyler yazilir  </head>
+\par <head> 
+\par {\listtext\pard\plain\ltrpar \s17 \rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f37\fs28\lang1033\langfe1033\langnp1033\langfenp1033\insrsid419840\charrsid9972959 \hich\af37\dbch\af0\loch\f37 1.\tab}}\pard \ltrpar
+\s17\ql \fi-360\li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4\adjustright\rin0\lin720\itap0\pararsid7870171 {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid419840\charrsid9972959 Metalar gelir }{\rtlch\fcs1 \af37\afs28 
+\ltrch\fcs0 \f37\fs28\insrsid10638698\charrsid9972959 meta ozu acilir name ve contenti olur <meta name=\'94\'94 content=\'94\'94 >  }{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid419840\charrsid9972959 , 1 ci meta
+ charset dir charset sehifedeki elifbanin novunu kodla deyin edir <meta charset=\'94UTF-8\'94>
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf25\lang1033\langfe1033\langnp1033\langfenp1033\insrsid7870171\charrsid9972959 \hich\af44\dbch\af0\loch\f44 2.\tab}}\pard\plain \ltrpar\ql \fi-360\li720\ri0\sl285\slmult0
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4\adjustright\rin0\lin720\itap0\pararsid7870171 \cbpat24 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 
+\f44\fs28\cf25\insrsid7870171\charrsid9972959 \~\~\~\~}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf15\insrsid7870171\charrsid9972959 <}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf26\insrsid7870171\charrsid9972959 meta}{\rtlch\fcs1 \af0\afs28 
+\ltrch\fcs0 \f44\fs28\cf25\insrsid7870171\charrsid9972959 \~}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf27\insrsid7870171\charrsid9972959 http-equiv}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf25\insrsid7870171\charrsid9972959 =}{\rtlch\fcs1 
+\af0\afs28 \ltrch\fcs0 \f44\fs28\cf28\insrsid7870171\charrsid9972959 "X-UA-Compatible"}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf25\insrsid7870171\charrsid9972959 \~}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf27\insrsid7870171\charrsid9972959 
+content}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf25\insrsid7870171\charrsid9972959 =}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf28\insrsid7870171\charrsid9972959 "IE=edge"}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 
+\f44\fs28\cf15\insrsid7870171\charrsid9972959 >}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f44\fs28\cf25\insrsid7870171\charrsid9972959 
+\par }\pard\plain \ltrpar\s17\ql \li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7870171 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid7870171\charrsid9972959 Bu elave birseydir ve bu frame artirir tam bilmirem }{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid461622\charrsid9972959 bu da responsive 
+page ucun onemlidir Microsoft edgede hemin page in islemesi ucun vacibdir v8 v9 }{\field\fldedit{\*\fldinst {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid461622\charrsid9972959  HYPERLINK "http://bilgisayamiyorum.com/post/24/" }{\rtlch\fcs1 
+\af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid14962404\charrsid9972959 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b6200000068007400740070003a002f002f00620069006c006700690073006100790061006d00690079006f00720075006d002e0063006f006d002f0070006f00730074002f00320034002f000000795881f43b1d7f48
+af2c825dc485276300000000a5ab00030000000015000000}}}{\fldrslt {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \cs19\f37\fs28\ul\cf19\insrsid461622\charrsid9972959 http://bilgisayamiyorum.com/post/24/}}}\sectd \ltrsect
+\linex0\headery708\footery708\colsx708\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid7870171\charrsid9972959  
+\par <meta name=\'94description\'94 content=\'94sehife haqqinda qisa ve oz aciqlama\'94}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid10638698\charrsid9972959 >}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid7870171\charrsid9972959 
+\par <meta name=\'94keywords\'94 contenr=\'94sehifeye aid muxtelif sozler yaziriq meselen satis sehifesidirse shop , mall , erzaq , telefon , paltar ve s bu kicik sozler acar sozlerdir ki birisi axtaris ederken bu sozlerle sizin pagenizi}{\rtlch\fcs1 
+\af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid10638698\charrsid9972959 n uste gorsenmesi ehtimalini artirir}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid7870171\charrsid9972959 \'94}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 
+\f37\fs28\insrsid10638698\charrsid9972959 >}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid7870171\charrsid9972959 
+\par }{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid10638698\charrsid9972959 <meta name=\'94author\'94 content=\'94bura muellifi qeyd edirik\'94>
+\par <meta name=\'94viewport\'94 content=\'94width=devi}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid12062361\charrsid9972959 c}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid10638698\charrsid9972959 e-width, initial-scale=1.0 \'94
+> bu responsive yeni her olcuye uygun web site qurmaq ucun olan koddur
+\par }{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid7870171\charrsid9972959 Tittle gelir - <title> JayMall </title>
+\par {\listtext\pard\plain\ltrpar \s17 \rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f37\fs28\lang1033\langfe1033\langnp1033\langfenp1033\insrsid7870171\charrsid9972959 \hich\af37\dbch\af0\loch\f37 3.\tab}}\pard \ltrpar
+\s17\ql \fi-360\li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4\adjustright\rin0\lin720\itap0\pararsid7870171 {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid7870171\charrsid9972959 
+\par }\pard \ltrpar\s17\qc \li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3692076 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid3692076\charrsid3692076 FAVICON}{\rtlch\fcs1 \af37\afs36 
+\ltrch\fcs0 \f37\fs36\insrsid3692076\charrsid3692076  }{\rtlch\fcs1 \af37\afs36 \ltrch\fcs0 \f37\fs36\insrsid3692076\charrsid3692076 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3692076 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3692076 SAYTDA SEKMEDE GORUNEN ADIN YANINDAKI ICON
+\par <title> SEHIFE ADI </title>
+\par }{\rtlch\fcs1 \af0\afs23 \ltrch\fcs0 \cs21\f44\fs23\cf29\insrsid3692076 <}{\rtlch\fcs1 \af0\afs23 \ltrch\fcs0 \cs16\f44\fs23\cf30\insrsid3692076 link}{\rtlch\fcs1 \af0\afs23 \ltrch\fcs0 \cs22\f44\fs23\cf6\insrsid3692076 \~rel}{\rtlch\fcs1 \af0\afs23 
+\ltrch\fcs0 \cs23\f44\fs23\cf29\insrsid3692076 ="icon"}{\rtlch\fcs1 \af0\afs23 \ltrch\fcs0 \cs22\f44\fs23\cf6\insrsid3692076 \~type}{\rtlch\fcs1 \af0\afs23 \ltrch\fcs0 \cs23\f44\fs23\cf29\insrsid3692076 ="image/x-icon"}{\rtlch\fcs1 \af0\afs23 \ltrch\fcs0 
+\cs22\f44\fs23\cf6\insrsid3692076 \~href}{\rtlch\fcs1 \af0\afs23 \ltrch\fcs0 \cs23\f44\fs23\cf29\insrsid3692076 ="/images/favicon.ico"}{\rtlch\fcs1 \af0\afs23 \ltrch\fcs0 \cs21\f44\fs23\cf29\insrsid3692076 >
+\par }{\field{\*\fldinst {\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid3692076  HYPERLINK "}{\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid3692076\charrsid3692076 https://www.favicon.cc/}{\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid3692076 " }}{\fldrslt {\rtlch\fcs1 \af37 
+\ltrch\fcs0 \cs19\ul\cf19\insrsid3692076\charrsid10762809 https://www.favicon.cc/}}}\sectd \ltrsect\linex0\headery708\footery708\colsx708\sectdefaultcl\sftnbj {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3692076  fav icon yarada bileceyimiz sayt
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid419840\charrsid9972959 
+\par </head>
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid419840\charrsid4400964 
+\par 
+\par 
+\par  <body>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10638698\charrsid4400964  
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15812671\charrsid4400964 <br> Setreden setre kecirmek ucun istifade olunur baglanmayan etiketdir}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15812671 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid7166405 
+\par 
+\par 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid7166405 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid7166405\charrsid7166405 HTML LAYOUTS
+\par }\pard\plain \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid271366 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid271366 Layout }{\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid7166405 HTML de web site}{\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid271366 -in strukdurudur beleki web site }{\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid7166405  
+yaradarken icinde olanlari muxtelif bolmelerde yazmaq daha best practice dir ve bu bolmeler layout mentiqini dasiyir . Meselen saytin header hissesi <header> tagi arasinda , body hissesi <main> tagi , ayri ayri bolmeler ise <section> tagi icerisind
+e yazilir , en son hisse ise <footer>tagi arasinda yazilir , elave olaraq ise navbar - <nav> tagi sidebar <aside> tagi arasinda yazilir ve s.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid271366   
+\par Layout qurarken iki hisse esas olur ki bunlarda }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\lang1068\langfe1033\langnp1068\insrsid271366 Static hiss\u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid271366  }{\rtlch\fcs1 \ab\af0 
+\ltrch\fcs0 \b\lang1068\langfe1033\langnp1068\insrsid271366\charrsid271366 \endash }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid271366\charrsid271366  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f419\lang1068\langfe1033\langnp1068\insrsid271366 saytda s\u601\'3fhif\u601\'3f d\u601\'3fyi\'fes\u601\'3f bel\u601\'3f, h\u601\'3fmin hiss\u601\'3fl\u601\'3fr eyni qal\'fdr. M\u601\'3fs\u601\'3fl\u601\'3fn, head\u601\'3fr v\u601\'3f footer.}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\lang1068\langfe1033\langnp1068\insrsid271366  }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\lang1068\langfe1033\langnp1068\insrsid271366 Dynamic hiss\u601\'3f}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1068\langfe1033\langnp1068\insrsid271366  }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\lang1068\langfe1033\langnp1068\insrsid271366\charrsid271366 \endash }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1068\langfe1033\langnp1068\insrsid271366\charrsid271366  }{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \f415\lang1068\langfe1033\langnp1068\insrsid271366 saytda s\u601\'3fhif\u601\'3f d\u601\'3fyi\'ba\u601\'3fnd\u601\'3f h\u601\'3fmin hiss\u601\'3f d\u601\'3f d\u601\'3fyi\'bair. Body dynamicdir.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\insrsid271366\charrsid271366 
+\par }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid6701982 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\insrsid6701982 Wireframe \endash  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f419\insrsid6701982 Yeni proyekt y\'fd\'f0anda, \u601\'3flimizd\u601\'3f dizayn olmasa, ka\'f0\'fdza sayt\'fdn dizayn\'fdn\'fd \'e7\u601\'3fkib, daha sonra kodla\'fed\'fdrmaq.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid6701982 
+\par }\pard\plain \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\insrsid12601691\charrsid6701982 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12601691 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\lang1068\langfe1033\langnp1068\insrsid12601691\charrsid271366 
+HTML Headings}{\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\lang1068\langfe1033\langnp1068\insrsid12601691\charrsid271366 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12601691 Html de heading}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid6553747 
+sler yeni basliqlar adindanda belli oldugu kimi bir meqale content ve s in basligini yazmaq ucun istifade olunur. Basliqlarin web site daxilinde mueyyen standartlari olmalidir cunki axtarma matoruna ve ceoya tesir edir. M}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid10638698\charrsid4400964 eselen }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405\charrsid4400964 h1 den 1 dene istifade elemek h2 dende max 4 dene bunlar standartdir}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405  }{\rtlch\fcs1 \af37 
+\ltrch\fcs0 \f37\insrsid10638698\charrsid4400964 ve s en boyuk h1 en kicikk basliq ise h6 dir}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid5007052\charrsid4400964  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405 .}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid10638698\charrsid4400964 
+\par <h1> PAGEDE GELEN ILK SOZ BASLIQ VE S </h1>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405  , }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10638698\charrsid4400964 <h2> PAGE </h2>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405  , }{\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\insrsid10638698\charrsid4400964 <h3> Page}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid5007052\charrsid4400964  </h3>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10638698\charrsid4400964 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid5007052\charrsid4400964 <h4> Page </h4>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405  , }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid5007052\charrsid4400964 <h5> Page </h5>}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid12084405  ,}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid5007052\charrsid4400964 <h6>Page </h6>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405  , Headingler blok elementdir.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid5007052\charrsid4400964 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12084405 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid12084405\charrsid12084405 HTML PARAGRAPH
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid461622\charrsid4400964 <p> </p> parag
+raf etikedir bu etiket bu etiketle biz istediyimiz cumleni bunun arasinda yazaraq bu cumleye ve}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid461622\charrsid4400964 ya her ne yazacaqsaq ona style}{
+\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid461622\charrsid4400964 vere bilerik cumleleri bunsuz qeyd edersek kod icerisnde hemin metne style metin vermek mumkun olmaz }{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid12084405 extra id ve ya class vererek de style vere bilerik.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid461622\charrsid4400964 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid1852741\charrsid12084405 <pre>}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid12084405\charrsid12084405 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1852741\charrsid4400964  bunun icerisende sozleri hansi cur hansi setirden yazsan o curde ekrana yansiyacaq}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1852741\charrsid4400964 </pre>
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12084405 Yaziya}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid656238  muxtelif forma vermek}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid461622\charrsid4400964  ucun etiketler : }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\insrsid461622\charrsid656238 <b>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid461622\charrsid4400964  Qalin </b> veya }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid461622\charrsid656238 <strong>}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid461622\charrsid4400964  </strong> }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid461622\charrsid656238 , }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid11486487\charrsid656238 <i>}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid11486487\charrsid4400964  italic eyri </i> ve ya }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid11486487\charrsid656238 <em>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid11486487\charrsid4400964  </em> }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\insrsid11486487\charrsid656238 , <u>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid11486487\charrsid4400964  altindan xett cekmek ucun </u> vey a }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid11486487\charrsid656238 <ins>}{\rtlch\fcs1 \af37 
+\ltrch\fcs0 \f37\insrsid11486487\charrsid4400964  </ins>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10638698\charrsid4400964 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid11486487\charrsid4400964 Storng etiketi yazinin birazda onemli olduguna isaredr em etiketinin icinde yazilan yazi da hemcinin }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15812671\charrsid4400964 
+yazinin onemini bildirmek ucun vurqulanmaq ucun bilinir}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid656238 .}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid11486487\charrsid4400964 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid15812671\charrsid656238 <sup> }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid656238\charrsid656238 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15812671\charrsid4400964 X in ustunde 2 ni belirtmek ucun istifade olunur yeni yazilani uste balaca gostermek }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid656238 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15812671\charrsid4400964 </sup> }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10638698\charrsid4400964 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid15812671\charrsid656238 <sub> }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid656238\charrsid656238 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15812671\charrsid4400964 X in altinda 2 ni belli elemek ucun istifade }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15812671 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid656238 </sub>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid656238\charrsid4400964 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid4854511\charrsid656238 <del> }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid656238\charrsid656238 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4854511\charrsid4400964 ustunden xett cekmek ucun istifade olunur }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid656238 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4854511\charrsid4400964 </del>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid938936 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid13980698\charrsid656238 <strike>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid13980698   delnen eynidi ama cox islenmir </strike>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid13980698\charrsid4400964 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid4854511\charrsid656238 <small>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4854511\charrsid4400964  balaca fontla yazmaq ucun </small>
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid4854511\charrsid656238 <mark>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4854511\charrsid4400964  yazinin ustunu sari rengde isarelem </mark>
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid4854511\charrsid656238 <hr>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4854511\charrsid4400964  Duz xett cekmek ucun istifade olunur}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4854511 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2445875 {\rtlch\fcs1 \ab\af37\afs32 \ltrch\fcs0 \b\f37\fs32\insrsid2445875\charrsid2445875 MARQUE
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid3107768\charrsid656238 <marque>}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid656238   X oxu uzre hereket eden yazilar yazmaq ucun istifade olunur. }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3107768 </marque>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875\charrsid2445875 W}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875\charrsid2445875 idth}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 (uzunluq)}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid2445875\charrsid2445875  ,  height}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 (genislik)}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875\charrsid2445875  , direction}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 (istiqamet,}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2445875\charrsid2445875  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875\charrsid2445875 up, down, left or right.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 )}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid2445875\charrsid2445875  , behavior ,  scrollamount}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 ()}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875\charrsid2445875  , }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 scrolldelay(), 
+}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875\charrsid2445875 loop}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 (nece defe olmasi)}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875\charrsid2445875  , hspace}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid2445875  (x oxu uzre bosluq)}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875\charrsid2445875 , vspace}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 (y oxu uzre bosluq)}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875\charrsid2445875 
+ , bgcolor}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2445875 (arxa plan regni vermek)
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3107768\charrsid4400964 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid7211640 \cbpat31 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1\afs48 \ltrch\fcs0 \f1\fs48\kerning36\insrsid7211640\charrsid7211640 Quotation & Citation}{\rtlch\fcs1 \af1\afs48 \ltrch\fcs0 \f1\fs48\kerning36\insrsid7211640 
+\par }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid9512271\charrsid4400964 <q> qisa alintilari yazmaq ucun istifade olunur</q>
+\par <blockquote> uzun alintilari yazmaq ucun istifade olunur </blockquote>
+\par <abbr> qisaltma}{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid9313612\charrsid4400964  ucun istifade olunur}{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid9512271\charrsid4400964  </abrr>}{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 
+\fs24\kerning36\insrsid9313612\charrsid4400964  meselen <p><ab}{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid9050814\charrsid4400964 br tittle=\'94 }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid9050814\charrsid9050814 
+BAKI DOVLET UNIVERSITETI}{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid9050814\charrsid4400964 \'94>BDU </abbr> 1918 de qurulub</p>}{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid9512271\charrsid4400964 
+\par }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid15209645\charrsid4400964 <address> address qeyd ederken bu etiketin arasina qeyd edirik</address>
+\par <cite> bura kitab mahni meqale ves calismalarin adini yaziriq muellifi yox</cite>
+\par <bdo dir=\'94}{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid1123187\charrsid4400964 auto , ltr rtl deye iki cur atributdan ist olunur}{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid15209645\charrsid4400964 \'94>}{\rtlch\fcs1 
+\af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid1123187\charrsid4400964  bundan istifade edib metnin yazma yolunu soldan saga sagdan sola yazmaq ucun istifade olunur}{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\kerning36\insrsid15209645\charrsid4400964  <b
+do>
+\par }\pard\plain \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\insrsid7211640\charrsid4400964 
+\par 
+\par 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9383074 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid14091826\charrsid9383074 Listler}{\rtlch\fcs1 \ab\af37\afs36 
+\ltrch\fcs0 \b\f37\fs36\insrsid10638698\charrsid9383074 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid7211640\charrsid4400964 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid14091826\charrsid4400964 3 nov list novu vardir 
+\par {\listtext\pard\plain\ltrpar \s17 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f37\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14091826\charrsid9383074 \hich\af37\dbch\af0\loch\f37 1.\tab}}\pard \ltrpar
+\s17\ql \fi-360\li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls5\adjustright\rin0\lin720\itap0\pararsid14091826 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid14091826\charrsid9383074 Unordered
+\par }\pard \ltrpar\s17\ql \li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14091826 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid14091826\charrsid4400964 <ul}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid6622753\charrsid4400964  style=\'94list-style-type: bununla listin basindakinin novunu deyisirik\'94}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid14091826\charrsid4400964 > 
+\par  <li> Bunularla qiraginda noqteli sirali listler yaratmaq olur </li>
+\par Linin icindede alt list olusdurmaq olur meselen <li>Ust list </li>
+\par                                      <ul> 
+\par                                       <li> Alt list </li>
+\par                                      </ul>
+\par 
+\par </ul>
+\par {\listtext\pard\plain\ltrpar \s17 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f37\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14091826\charrsid9383074 \hich\af37\dbch\af0\loch\f37 2.\tab}}\pard \ltrpar
+\s17\ql \fi-360\li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls5\adjustright\rin0\lin720\itap0\pararsid14091826 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid14091826\charrsid9383074 Ordered}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid14091826\charrsid4400964  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3487806\charrsid4400964 , qisa yollar ol>li*5 bununla ol icinde 5 sira list yaratmaq olur shurt way}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid14091826\charrsid4400964 
+
+\par }\pard \ltrpar\s17\ql \li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14962404 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid14962404\charrsid4400964 <ol type=\'94
+bura A,a,1 ve s yazaraq listin siralanacagi novu teyin edirik\'94}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3487806\charrsid4400964  start=\'94bura nece yazsaq typedaki da ondan baslayacaq\'94}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid14962404\charrsid4400964 > 
+\par <li>Listleri herf vey a reqemle elemek olur</li>
+\par </ol>
+\par {\listtext\pard\plain\ltrpar \s17 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f37\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14091826\charrsid9383074 \hich\af37\dbch\af0\loch\f37 3.\tab}}\pard \ltrpar
+\s17\ql \fi-360\li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls5\adjustright\rin0\lin720\itap0\pararsid14091826 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid14091826\charrsid9383074 Description}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid14962404\charrsid4400964  yazilir dl kodlari arasinda ve aciqlama tipli yazilar ucun istifade olur }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid14091826\charrsid4400964 
+\par }\pard \ltrpar\s17\ql \li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14962404 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid14962404\charrsid4400964 <dl>
+\par Bu taglar arasina birinci termin gelir <dt> sonra ise terminin terifi altindan gelir <dd>
+\par </dl>
+\par Meselen :
+\par <dl>
+\par <dt> Developer </dt>
+\par <dd> Developer her hanisa proqramlama dilini derinine bilib onunla islemeyi bacaran birisi </dd>
+\par </dl>
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9383074 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid1789242\charrsid9383074 IMAGE}{\rtlch\fcs1 \ab\af37\afs36 
+\ltrch\fcs0 \b\f37\fs36\insrsid10638698\charrsid9383074 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1789242\charrsid4400964 <img src=\'94
+bura menbeni seklin adini yaziriq meselen.png\'94 width=\'94olcu\'94 alt=\'94sekil haqqinda nese qeyd edirikki nese problem olanda resmin adi cixsin ve isimiz asan olsun}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid6756767\charrsid4400964  title=\'94
+miskani uzerine getirende sekil haqqda nese yazilir}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1789242\charrsid4400964 \'94 eger sekille html kodlarinin oldugu sehife eyni pafkadadirsa <img src=\'94meselen.png\'94 alt=\'94meselen\'94> a
+di qaydada eger sekil basqa bir pafkadadirsa html sehifesi coldedirse pafka icinde deyilse onda <img src=\'94mespafka/meselen.png\'94 alt=\'94meselen\'94
+ > pafkaya girib sonra sekili source atributunda gostermeliyik , eger her iki html sehifeside sekilde ayri ayri pafkalardadirsa birinci olaraq html p}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid7421131\charrsid4400964 
+afkasindan cole her iki pafkanin gorsendiyi ana pafkaya geri qayitmaq sonra ise img pafkasina girib img I source da gostermek lazimdir <img src=\'94../meselenpafka/meselen.png\'94 ../ bununla bir pafkadan cixib / bununla bir paf
+kaya girilir ../../ bele olduqda iki pafkadan cixilir }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1789242\charrsid4400964 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3757351\charrsid4400964 Eyni ilede kompda olan sekilleri deyilde internet uzerinden olan sekilleride qoya bilerik <img src=\'94https//:meselensekil.com/png\'94
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9383074 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid15997220\charrsid9383074 AUDIO}{\rtlch\fcs1 \ab\af37\afs36 
+\ltrch\fcs0 \b\f37\fs36\insrsid9383074\charrsid9383074 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15997220\charrsid4400964 
+ses veya musiqi elave eleyerken 3 cur mp3 her browserde acan ogg , vaw kimi esas uzantili seyler elave edirik ver min eyni mp3 den 3 cur uzantili yazmaliyiqki hansisa tarayicida biri acmayanda digerini acsin
+\par <audio controls}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid11615946\charrsid4400964 (bu idare paneli yaradir ve bu olmadan mahni veya ses gorsenmir)}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15997220\charrsid4400964  loop}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid11615946\charrsid4400964  (bitdikce tezden baslama)}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15997220\charrsid4400964  autoplay}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid11615946\charrsid4400964 (aftomatik baslama)}{\rtlch\fcs1 \af37 
+\ltrch\fcs0 \f37\insrsid15997220\charrsid4400964  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid11615946\charrsid4400964 mute(sessize alir )}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid15997220\charrsid4400964 >
+\par <source src=\'94audionun adin yaziriq.mp3\'94 type=\'94novunu yaziriq meselen/mp3,ogg,vaw\'94>
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9383074 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid11615946\charrsid9383074 VIDEO}{\rtlch\fcs1 \ab\af37\afs36 
+\ltrch\fcs0 \b\f37\fs36\insrsid9383074\charrsid9383074 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9142194 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid11615946\charrsid4400964 
+videolarida 3 cur elave elemek lazimdirki bir tarayicida biri acmayanda o biric nov uzantili videonu acsin }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid8871623\charrsid4400964 MP4 , WebM , Ogg}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid9142194\charrsid4400964 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid9142194\charrsid9142194 </audio>}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid11615946\charrsid9142194 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid9142194\charrsid4400964 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid11615946\charrsid4400964 <video bura mutleq idare paneli control istesekde autoplay yaziriq autoplay duzgun calismir >
+\par <source src=\'94bura videonun oldugu yer varsa onu /video.mp4\'94 type=\'94video/novunu\'94
+\par </video>
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9383074 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid9383074\charrsid9383074 DIV}{\rtlch\fcs1 \ab\af37\afs36 
+\ltrch\fcs0 \b\f37\fs36\insrsid6640507\charrsid9383074 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3692076 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid6640507\charrsid4400964 
+Bu elemenle sehifelerdeki bolmeleri bir yerde yazmaq ucun istifade olunur meselen menu header footer ve s kimi seyleri ayirib icine yazmaq ucun istifade olunur en cox istifa
+de olunan elementlerden biridir bu yeniki div bir bolumdur bir skafin gozu kimi dusun skafin icinde qisliq yazliq paltarlar var ve s}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3692076  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3692076 <div>   bir
+ block elementdir container yeni icerikleri saxlamaq ucun istifade olunur meselen: <div id=\'94container\'94>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3692076 .}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3692076 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3692076\charrsid4400964 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid10517237 {\rtlch\fcs1 \ab\af37\afs32 \ltrch\fcs0 \b\f37\fs32\insrsid1205047\charrsid10517237 <span>}{\rtlch\fcs1 \ab\af37\afs32 
+\ltrch\fcs0 \b\f37\fs32\insrsid10517237\charrsid10517237 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1205047\charrsid4400964 
+Bir cumle icerisinde bir ve ya birden cox soze yerli css elave elemek ucun istifade olunur </span meselen <p> Menim yazacagim bu yazi <span style=\'94color:red;\'94>qirmizidir</span>  </p>
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3692076 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid7211640\charrsid4400964 
+Web page de <header> burda basda qeyd edilen seyler </header> , <nav>burda menu</nav> , <section> </section> , <aside> burda sagda vey a solda gorunen menu </aside> <footer>en altda sitein bitdiyi yerde yazilan hisseler </footer>}{\rtlch\fcs1 \af37 
+\ltrch\fcs0 \f37\insrsid3692076 .
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3692076 <span>  inline blok elementdir oz oldugu qeder hisseni tutduqundan az yer tutmaq lazim olan yerlerde istifade olunur </span>
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid7211640 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10517237\charrsid4400964 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid10517237 {\rtlch\fcs1 \ab\af37\afs32 \ltrch\fcs0 \b\f37\fs32\insrsid5974697\charrsid10517237 Anchor
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid5974697\charrsid4400964 <a> link ucun href atributu ile istifade olunur }{
+\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2309814\charrsid4400964  hrefin icinde sekil,pdf ve s diger seyleride qeyd etmek olar  mail atmaq ucun ise href=\'94mailto:contact.ceyhun@gmail.com\'94}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid5974697\charrsid4400964 </a>
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12927713\charrsid4400964 <a href=\'94link\'94 target=\'94_blank\'94 bununla linki yeni sehifede acirsan>Bura klick et linke kec </a>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12927713 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10517237\charrsid4400964 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid10517237 {\rtlch\fcs1 \ab\af37\afs28 \ltrch\fcs0 \b\f37\fs28\insrsid1725701\charrsid10517237 BLOCK & INLINE ELEMETLER}{
+\rtlch\fcs1 \ab\af37\afs28 \ltrch\fcs0 \b\f37\fs28\insrsid1205047\charrsid10517237 
+\par {\listtext\pard\plain\ltrpar \s17 \rtlch\fcs1 \af0 \ltrch\fcs0 \f37\lang1033\langfe1033\langnp1033\langfenp1033\insrsid1725701\charrsid4400964 \hich\af37\dbch\af0\loch\f37 1.\tab}}\pard \ltrpar
+\s17\ql \fi-360\li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls6\adjustright\rin0\lin720\itap0\pararsid1725701 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 
+BLOCK ELEMENTLER OLDUGU SETRI SEHIFENIN SOLUNDAN SAGINA DOGRU HER TEREFLI DOLDURAN ELEMENTLERDIR
+\par }\pard \ltrpar\s17\ql \li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid10517237 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <address> </address>}{\rtlch\fcs1 \af37 
+\ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <h1>\'85..<h6>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <p>}{\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <pre>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <div>}{\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <blockquote>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 
+<ol> <ul> <li> <table>
+\par {\listtext\pard\plain\ltrpar \s17 \rtlch\fcs1 \af0 \ltrch\fcs0 \f37\lang1033\langfe1033\langnp1033\langfenp1033\insrsid1725701\charrsid4400964 \hich\af37\dbch\af0\loch\f37 2.\tab}}\pard \ltrpar
+\s17\ql \fi-360\li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls6\adjustright\rin0\lin720\itap0\pararsid1725701 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 INLINE ELEMENTLER }{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid10517237 CONTENT}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964  QEDER }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10517237 YER TUTUR}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964  
+\par }\pard \ltrpar\s17\ql \li720\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid10517237 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <a>}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <b>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <strong>}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <sub>,<sup>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <span>}{\rtlch\fcs1 \af37 
+\ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <small>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <img>}{\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\insrsid10517237  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701\charrsid4400964 <input>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid1725701 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12475895 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12475895\charrsid4400964 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12475895 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid4400964\charrsid12475895 TABLE}{\rtlch\fcs1 \ab\af37\afs36 
+\ltrch\fcs0 \b\f37\fs36\insrsid12475895\charrsid12475895 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4400964\charrsid4400964 ced
+vel qurmaq ucun ilk once <table> ELEMENTI ACILIR VE HERSEY BURA YAZILIR </table>}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid12927713\charrsid4400964 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4400964\charrsid4400964 Cedveldede thead ve tbody deye iki hisse olur
+\par 
+\par <table> 
+\par <caption> Cedvelin adi mes:Ders cedveli idman cedeveli </caption>
+\par <thead> 
+\par 
+\par Bura cedvelin yuxarisindaki seyleri <tr> elementleri arasinda <th>ADI , SOYADI</th> la yaziriq </tr>
+\par 
+\par </thead>
+\par <tbody>
+\par Bura ise yuxarida yazilanlari yene <tr> elementinin arasinda <td> (adi)Ceyhun </td> ile yaziriq </tr>
+\par </tbody>
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\sa160\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 
+\f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid4400964\charrsid4400964 </table>}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964  <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf26\insrsid4400964\charrsid4400964 table}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par }\pard \ltrpar\ql \li0\ri0\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \~\~\~\~\~\~\~\~\~\~\~\~}{
+\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 caption}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 
+>}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964 ISCI CEDVELI}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964  </}{
+\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 caption}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+
+\par \~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 thead}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 tr}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 th}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 ADI}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf26\insrsid4400964\charrsid4400964 th}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 th}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 SOYADI}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 th}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 th}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 ATA-ADI}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 th}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 th}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 ANAADI}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 th}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \line 
+\par }\pard \ltrpar\ql \li0\ri0\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{
+\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 tr}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{
+\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \line \line \line 
+\par }\pard \ltrpar\ql \li0\ri0\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \~\~\~\~\~\~\~\~\~\~\~\~}{
+\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 thead}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >
+}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \line \line 
+\par }\pard \ltrpar\ql \li0\ri0\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \~\~\~\~\~\~\~\~\~\~\~\~}{
+\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 tbody}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}
+{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 tr}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 AGCA}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 AGCA}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 AGCA}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 AGCA}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \line 
+\par }\pard \ltrpar\ql \li0\ri0\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{
+\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 tr}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{
+\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 tr}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 KONUL}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 KONUL}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 KONUL}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 <}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 KONUL}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 
+\ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 td}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 tr}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par 
+\par \~\~\~\~\~\~\~\~\~\~\~\~}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 tbody}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 
+\f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par }\pard \ltrpar\ql \li0\ri0\sa240\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \line \line \line \line 
+
+\par }\pard \ltrpar\ql \li0\ri0\sl285\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4400964 \cbpat24 {\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 \~\~\~\~\~\~\~\~}{\rtlch\fcs1 
+\af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 </}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf26\insrsid4400964\charrsid4400964 table}{\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf15\insrsid4400964\charrsid4400964 >}{
+\rtlch\fcs1 \af0\afs21 \ltrch\fcs0 \f44\fs21\cf25\insrsid4400964\charrsid4400964 
+\par \~\~\~\~\~\~\~\~
+\par }\pard\plain \ltrpar\s17\qr \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4348881 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\insrsid4400964 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4348881 
+\par 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid4348881\charrsid4400964 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid2766090 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3692076 {\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid3692076 ID}{\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 
+\b\f37\fs36\insrsid10424335\charrsid3692076  ve }{\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid3692076 CLASS
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3692076 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10424335 
+css hissede verildiyi id ve class hisseye stil vermek ucun istifade olunur ferq : id sadece bir eded}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid3692076  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid10424335 seye verilir class ise bir nece meselen 
+id : header, main hissesine ve s}{\rtlch\fcs1 \ab\af37\afs36 \ltrch\fcs0 \b\f37\fs36\insrsid10424335\charrsid3692076 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid2766090 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid6167322 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3692076 {\rtlch\fcs1 \ab\af37\afs32 \ltrch\fcs0 \b\f37\fs32\insrsid6167322\charrsid6167322 FORM}{\rtlch\fcs1 \ab\af37\afs32 
+\ltrch\fcs0 \b\f37\fs32\insrsid3692076 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \ab\af37\afs32 \ltrch\fcs0 \b\f37\fs32\insrsid5514247\charrsid5514247 
+http://www.belgeler.org/hpm/html-php-mysql-giris_prg-html_form.html}{\rtlch\fcs1 \ab\af37\afs32 \ltrch\fcs0 \b\f37\fs32\insrsid6167322 
+\par }{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid6167322 
+\par <form action=\'94 }{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid1313819 giris edilen bilgilerin gonderileceyi back end hissenin adi}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid6167322 \'94 methods}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 
+\f37\fs22\insrsid15994060 =\'94forma daxil edilen deyerlerin hansi yolla gonderilmesini belirleyir ve get, post iki eded dir }{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid11998210 
+\par Get-
+\par \ltrrow}\trowd \irow0\irowband0\ltrrow\ts11\trleft-60\trbrdrt\brdrs\brdrw15\brdrcf33 \trbrdrl\brdrs\brdrw15\brdrcf33 \trbrdrb\brdrs\brdrw15\brdrcf33 \trbrdrr\brdrs\brdrw15\brdrcf33 
+\trftsWidth3\trwWidth9600\trautofit1\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid11998210\tbllkhdrrows\tbllkhdrcols\tbllknocolband\tblind90\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw15\brdrcf33 \clbrdrl\brdrs\brdrw15\brdrcf33 \clbrdrb
+\brdrs\brdrw15\brdrcf33 \clbrdrr\brdrs\brdrw15\brdrcf33 \cltxlrtb\clftsWidth1\clpadl45\clpadt150\clpadb45\clpadr45\clpadfl3\clpadft3\clpadfb3\clpadfr3\clshdrawnil\clhidemark \cellx9540\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid11998210 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 
+\f40\fs18\cf32\lang1055\langfe1055\langnp1055\langfenp1055\insrsid11998210\charrsid11998210 Form verileri URL'a ekler: URL?isim=deger&isim=deger\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {
+\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\lang1055\langfe1055\langnp1055\langfenp1055\insrsid11998210\charrsid11998210 \trowd \irow0\irowband0\ltrrow\ts11\trleft-60\trbrdrt\brdrs\brdrw15\brdrcf33 \trbrdrl\brdrs\brdrw15\brdrcf33 \trbrdrb
+\brdrs\brdrw15\brdrcf33 \trbrdrr\brdrs\brdrw15\brdrcf33 \trftsWidth3\trwWidth9600\trautofit1\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid11998210\tbllkhdrrows\tbllkhdrcols\tbllknocolband\tblind90\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw15\brdrcf33 
+\clbrdrl\brdrs\brdrw15\brdrcf33 \clbrdrb\brdrs\brdrw15\brdrcf33 \clbrdrr\brdrs\brdrw15\brdrcf33 \cltxlrtb\clftsWidth1\clpadl45\clpadt150\clpadb45\clpadr45\clpadfl3\clpadft3\clpadfb3\clpadfr3\clshdrawnil\clhidemark \cellx9540\row \ltrrow
+}\trowd \irow1\irowband1\lastrow \ltrrow\ts11\trleft-60\trbrdrt\brdrs\brdrw15\brdrcf33 \trbrdrl\brdrs\brdrw15\brdrcf33 \trbrdrb\brdrs\brdrw15\brdrcf33 \trbrdrr\brdrs\brdrw15\brdrcf33 
+\trftsWidth3\trwWidth9600\trautofit1\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid11998210\tbllkhdrrows\tbllkhdrcols\tbllknocolband\tblind90\tblindtype3 \clvertalc\clbrdrt\brdrtbl \clbrdrl\brdrs\brdrw15\brdrcf33 \clbrdrb\brdrs\brdrw15\brdrcf33 \clbrdrr
+\brdrs\brdrw15\brdrcf33 \cltxlrtb\clftsWidth1\clshdrawnil\clhidemark \cellx9540\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid11998210 {\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 
+\f40\fs18\cf32\lang1055\langfe1055\langnp1055\langfenp1055\insrsid11998210\charrsid11998210 \cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 
+\f0\fs20\lang1055\langfe1055\langnp1055\langfenp1055\insrsid11998210\charrsid11998210 \trowd \irow1\irowband1\lastrow \ltrrow\ts11\trleft-60\trbrdrt\brdrs\brdrw15\brdrcf33 \trbrdrl\brdrs\brdrw15\brdrcf33 \trbrdrb\brdrs\brdrw15\brdrcf33 \trbrdrr
+\brdrs\brdrw15\brdrcf33 \trftsWidth3\trwWidth9600\trautofit1\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid11998210\tbllkhdrrows\tbllkhdrcols\tbllknocolband\tblind90\tblindtype3 \clvertalc\clbrdrt\brdrtbl \clbrdrl\brdrs\brdrw15\brdrcf33 \clbrdrb
+\brdrs\brdrw15\brdrcf33 \clbrdrr\brdrs\brdrw15\brdrcf33 \cltxlrtb\clftsWidth1\clshdrawnil\clhidemark \cellx9540\row }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid11998210 {\rtlch\fcs1 \af37 
+\ltrch\fcs0 \lang1055\langfe1033\langnp1055\insrsid11998210 Post- }{\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 \f449\fs18\cf32\lang1055\langfe1055\langnp1055\langfenp1055\insrsid11998210\charrsid11998210 Form verilerini Http mesaj\'fd olarak g\'f6nderir.}{
+\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 \f40\fs18\cf32\lang1055\langfe1055\langnp1055\langfenp1055\insrsid11998210     }{\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid11998210  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \insrsid15994060 \'94}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\insrsid6167322 >}{\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 \f40\fs18\cf32\lang1055\langfe1055\langnp1055\langfenp1055\insrsid6167322\charrsid11998210 
+\par }\pard\plain \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid6167322 
+\par Form formalari yazmaq ucun isitafede olunur meselene login panel olusdurarken username password email yerini form input taglari ile olusur .
+\par }{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid11998210 
+\par }{\rtlch\fcs1 \af419\afs22 \ltrch\fcs0 \f419\fs22\insrsid15227869\charrsid15227869 D\'fc\'f0meler ya do\'f0rudan <button> etiketi kullan\'fdlarak ya da <input> etiketinde bir parametre olarak belirtilerek kullan\'fdl\'fdr. Daha fazla se\'e7enek sa\'f0lad
+\'fd\'f0\'fdndan do\'f0rudan <button> etiketi kullan\'fdm\'fd tercih edilir. Belirtildikleri etiketin type parametresinde bu 3 t\'fcr d\'fc\'f0me s\'fdras\'fdyla submit, reset, button de\'f0erleri verilerek kullan\'fdl\'fdr.}{\rtlch\fcs1 \af37\afs22 
+\ltrch\fcs0 \f37\fs22\insrsid15227869 
+\par }{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid11998210 
+\par <label for=\'94inputun id-si\'94 </label>}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid5572205  label inputa qoyulan deyerin adini yazmaq ucun dur}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid11998210 
+\par <input}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid7671025  type=\'94text\'94}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid11998210  id=\'94username\'94}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid5572205  name=\'94username
+\'94>}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid11998210 
+\par }{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid15227869 <input type=\'94\'94password id=\'94password\'94 name=\'94password\'94> Parol
+\par <input type=\'94email\'94 id=\'94email\'94 name=\'94Email\'94> Email
+\par <input type}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid729802 =\'94radio\'94 id=\'94radio\'94 name=\'94Gender\'94> Secenek duyme}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid15227869 
+\par }{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid729802 <input type}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid11014437 =\'94number\'94 sayi gostermek ucun>}{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid729802 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid203839\charrsid14226479 Required = doldurmaq mecburidir}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid11014437\charrsid14226479 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid16337985\charrsid14226479 Optio}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid5061173\charrsid14226479 nal = doldurmaq olada biler olmayada }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\insrsid16337985\charrsid14226479 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid5061173\charrsid14226479 Enabled = Aktiv input
+\par Disabled = Deaktiv input
+\par Read-only= Sadece oxumaq olur icine elave ede bilmir user
+\par Read-write= hem yazib hem oxumaq mumkunudur
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid203839\charrsid14226479 Min-length= minimum herf sayi
+\par Max-length= max herf reqem sayi}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid11998210\charrsid14226479 
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid203839\charrsid14226479 Pattern(0-9)= ancaq reqem qoymaq
+\par Disabled= etkisizlesdirilmis input
+\par Enabled= aktivlesdirilmis input
+\par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\insrsid14226479\charrsid14226479 Contenteditable (mecmunu deyisdirmek mumkun olsun)
+\par }{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid6167322 </form>
+\par }{\rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f37\fs22\insrsid16533901 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3692076 {\rtlch\fcs1 \ab\af37\afs32 \ltrch\fcs0 \b\f37\fs32\insrsid16533901\charrsid16533901 TEXTAREA}{\rtlch\fcs1 
+\ab\af37\afs32 \ltrch\fcs0 \b\f37\fs32\insrsid16533901 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid16533901 
+<textarea> bu hisse en cox musterilerden geri donus, problemlerini yazmasi ucun qoyulan yazmaq ucun bir hissedir <textarea>}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid6048041 
+\par }{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid3692076\charrsid3692076 
+\par }\pard \ltrpar\s17\qc \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3692076 {\rtlch\fcs1 \ab\af37\afs40 \ltrch\fcs0 \b\f37\fs40\insrsid6048041\charrsid6048041 IFRAME}{\rtlch\fcs1 \ab\af37\afs40 
+\ltrch\fcs0 \b\f37\fs40\insrsid11998210 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sbauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 {\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid6048041 <iframe  src=\'94menbe \'94width=\'94genislik\'94 height=
+\'94yuksesklik vermek olur\'94> istediyimiz web sehifesini pencere icerisinde gostermek </iframe>}{\rtlch\fcs1 \af37\afs28 \ltrch\fcs0 \f37\fs28\insrsid6048041\charrsid6048041 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid6167322\charrsid2766090 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\insrsid419840\charrsid4400964 </body> 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid419840 \cbpat22 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf23\insrsid10638698\charrsid4400964 </html>}{\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\cf23\insrsid419840\charrsid4400964 
+\par }\pard\plain \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af37\afs24 \ltrch\fcs0 \fs24\insrsid11433847\charrsid419840 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b030414000600080000002100b6f4679893070000c9200000160000007468656d652f7468656d652f
+7468656d65312e786d6cec59cd8b1bc915bf07f23f347d97f5d5ad8fc1f2a24fcfda33b6b164873dd648a5eef2547789aad28cc56208de532e81c026e49085bd
+ed21842cecc22eb9e48f31d8249b3f22afaa5bdd5552c99e191c3061463074977eefd5afde7bf5de53d5ddcf5e26d4bbc05c1096f6fcfa9d9aefe174ce16248d
+7afeb3d9a4d2f13d2151ba4094a5b8e76fb0f03fbbf7eb5fdd454732c609f6403e1547a8e7c752ae8eaa5531876124eeb0154ee1bb25e30992f0caa3ea82a34b
+d09bd06aa3566b55134452df4b51026a1f2f97648ebd9952e9dfdb2a1f53784da5500373caa74a35b6243476715e5708b11143cabd0b447b3eccb3609733fc52
+fa1e4542c2173dbfa6fffceabdbb5574940b517940d6909be8bf5c2e17589c37f49c3c3a2b260d823068f50bfd1a40e53e6edc1eb7c6ad429f06a0f91c569a71
+b175b61bc320c71aa0ecd1a17bd41e35eb16ded0dfdce3dc0fd5c7c26b50a63fd8c34f2643b0a285d7a00c1feee1c3417730b2f56b50866fede1dbb5fe28685b
+fa3528a6243ddf43d7c25673b85d6d0159327aec8477c360d26ee4ca4b144443115d6a8a254be5a1584bd00bc6270050408a24493db959e1259a43140f112567
+9c7827248a21f056286502866b8ddaa4d684ffea13e827ed5174849121ad780113b137a4f87862cec94af6fc07a0d537206f7ffef9cdeb1fdfbcfee9cd575fbd
+79fdf77c6eadca923b466964cafdf2dd1ffef3cd6fbd7ffff0ed2f5fff319b7a172f4cfcbbbffdeedd3ffef93ef5b0e2d2146ffff4fdbb1fbf7ffbe7dfffebaf
+5f3bb4f7393a33e1339260e13dc297de5396c0021dfcf119bf9ec42c46c494e8a791402952b338f48f656ca11f6d10450edc00db767cce21d5b880f7d72f2cc2
+d398af2571687c182716f094313a60dc6985876a2ec3ccb3751ab927e76b13f714a10bd7dc43945a5e1eaf579063894be530c616cd2714a5124538c5d253dfb1
+738c1dabfb8210cbaea764ce99604be97d41bc01224e93ccc899154da5d03149c02f1b1741f0b7659bd3e7de8051d7aa47f8c246c2de40d4417e86a965c6fb68
+2d51e252394309350d7e8264ec2239ddf0b9891b0b099e8e3065de78818570c93ce6b05ec3e90f21cdb8dd7e4a37898de4929cbb749e20c64ce4889d0f6394ac
+5cd829496313fbb938871045de13265df05366ef10f50e7e40e941773f27d872f787b3c133c8b026a53240d4376beef0e57dccacf89d6ee8126157aae9f3c44a
+b17d4e9cd131584756689f604cd1255a60ec3dfbdcc160c05696cd4bd20f62c82ac7d815580f901dabea3dc5027a25d5dcece7c91322ac909de2881de073bad9
+493c1b9426881fd2fc08bc6eda7c0ca52e7105c0633a3f37818f08f480102f4ea33c16a0c308ee835a9fc4c82a60ea5db8e375c32dff5d658fc1be7c61d1b8c2
+be04197c6d1948eca6cc7b6d3343d49aa00c9819822ec3956e41c4727f29a28aab165b3be596f6a62ddd00dd91d5f42424fd6007b4d3fb84ffbbde073a8cb77f
+f9c6b10f3e4ebfe3566c25ab6b763a8792c9f14e7f7308b7dbd50c195f904fbfa919a175fa04431dd9cf58b73dcd6d4fe3ffdff73487f6f36d2773a8dfb8ed64
+7ce8306e3b99fc70e5e3743265f3027d8d3af0c80e7af4b14f72f0d46749289dca0dc527421ffc08f83db398c0a092d3279eb838055cc5f0a8ca1c4c60e1228e
+b48cc799fc0d91f134462b381daafb4a492472d591f0564cc0a1911e76ea5678ba4e4ed9223becacd7d5c16656590592e5782d2cc6e1a04a66e856bb3cc02bd4
+6bb6913e68dd1250b2d721614c6693683a48b4b783ca48fa58178ce620a157f65158741d2c3a4afdd6557b2c805ae115f8c1edc1cff49e1f06200242701e07cd
+f942f92973f5d6bbda991fd3d3878c69450034d8db08283ddd555c0f2e4fad2e0bb52b78da2261849b4d425b46377822869fc17974aad1abd0b8aeafbba54b2d
+7aca147a3e08ad9246bbf33e1637f535c8ede6069a9a9982a6de65cf6f35430899395af5fc251c1ac363b282d811ea3717a211dcbccc25cf36fc4d32cb8a0b39
+4222ce0cae934e960d122231f728497abe5a7ee1069aea1ca2b9d51b90103e59725d482b9f1a3970baed64bc5ce2b934dd6e8c284b67af90e1b35ce1fc568bdf
+1cac24d91adc3d8d1797de195df3a708422c6cd795011744c0dd413db3e682c0655891c8caf8db294c79da356fa3740c65e388ae62945714339967709dca0b3a
+faadb081f196af190c6a98242f8467912ab0a651ad6a5a548d8cc3c1aafb6121653923699635d3ca2aaa6abab39835c3b60cecd8f26645de60b53531e434b3c2
+67a97b37e576b7b96ea74f28aa0418bcb09fa3ea5ea12018d4cac92c6a8af17e1a56393b1fb56bc776811fa07695226164fdd656ed8edd8a1ae19c0e066f54f9
+416e376a6168b9ed2bb5a5f5adb979b1cdce5e40f2184197bba6526857c2c92e47d0104d754f92a50dd8222f65be35e0c95b73d2f3bfac85fd60d80887955a27
+1c57826650ab74c27eb3d20fc3667d1cd66ba341e31514161927f530bbb19fc00506dde4f7f67a7cefee3ed9ded1dc99b3a4caf4dd7c5513d777f7f5c6e1bb7b
+8f40d2f9b2d598749bdd41abd26df627956034e854bac3d6a0326a0ddba3c9681876ba9357be77a1c141bf390c5ae34ea5551f0e2b41aba6e877ba9576d068f4
+8376bf330efaaff23606569ea58fdc16605ecdebde7f010000ffff0300504b0304140006000800000021000dd1909fb60000001b010000270000007468656d65
+2f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0add40384e4350d36
+3f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567914b284d262452282e
+3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f165dfe514173d985
+0528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0fbfff0000001c020000130000000000000000000000
+0000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b00000000000000000000
+000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c0000000000000000000000000019020000
+7468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d0014000600080000002100b6f4679893070000c92000001600000000000000
+000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000001b01000027000000
+000000000000000000009d0a00007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000980b00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax376\lsdlockeddef0\lsdsemihiddendef0\lsdunhideuseddef0\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 5;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 9;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 1;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 2;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 4;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 5;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 7;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 8;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 header;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footer;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index heading;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of figures;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope return;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation reference;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 line number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 page number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote text;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of authorities;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 macro;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 toa heading;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 5;\lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Closing;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Signature;\lsdsemihidden1 \lsdunhideused1 \lsdpriority1 \lsdlocked0 Default Paragraph Font;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Message Header;\lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Salutation;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Date;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Note Heading;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Block Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 FollowedHyperlink;\lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;
+\lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Document Map;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Plain Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 E-mail Signature;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Top of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Bottom of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal (Web);\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Acronym;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Cite;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Code;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Definition;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Keyboard;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Preformatted;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Sample;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Typewriter;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;\lsdpriority39 \lsdlocked0 Table Grid;
+\lsdsemihidden1 \lsdlocked0 Placeholder Text;\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;
+\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;
+\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;
+\lsdpriority61 \lsdlocked0 Light List Accent 1;\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;
+\lsdsemihidden1 \lsdlocked0 Revision;\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 1;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;\lsdpriority62 \lsdlocked0 Light Grid Accent 5;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdsemihidden1 \lsdunhideused1 \lsdpriority37 \lsdlocked0 Bibliography;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;\lsdpriority41 \lsdlocked0 Plain Table 1;\lsdpriority42 \lsdlocked0 Plain Table 2;\lsdpriority43 \lsdlocked0 Plain Table 3;\lsdpriority44 \lsdlocked0 Plain Table 4;
+\lsdpriority45 \lsdlocked0 Plain Table 5;\lsdpriority40 \lsdlocked0 Grid Table Light;\lsdpriority46 \lsdlocked0 Grid Table 1 Light;\lsdpriority47 \lsdlocked0 Grid Table 2;\lsdpriority48 \lsdlocked0 Grid Table 3;\lsdpriority49 \lsdlocked0 Grid Table 4;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 1;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 1;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 1;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 1;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 1;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 2;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 2;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 2;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 2;
+\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 3;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 3;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 3;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 3;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 3;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 4;
+\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 4;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 4;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 4;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 4;
+\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 4;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 5;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 5;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 5;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 5;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 5;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 6;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 6;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 6;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 6;
+\lsdpriority46 \lsdlocked0 List Table 1 Light;\lsdpriority47 \lsdlocked0 List Table 2;\lsdpriority48 \lsdlocked0 List Table 3;\lsdpriority49 \lsdlocked0 List Table 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful;\lsdpriority52 \lsdlocked0 List Table 7 Colorful;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 List Table 2 Accent 1;\lsdpriority48 \lsdlocked0 List Table 3 Accent 1;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 1;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 1;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 1;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 List Table 2 Accent 2;\lsdpriority48 \lsdlocked0 List Table 3 Accent 2;\lsdpriority49 \lsdlocked0 List Table 4 Accent 2;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 2;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 3;
+\lsdpriority47 \lsdlocked0 List Table 2 Accent 3;\lsdpriority48 \lsdlocked0 List Table 3 Accent 3;\lsdpriority49 \lsdlocked0 List Table 4 Accent 3;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 3;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 4;\lsdpriority47 \lsdlocked0 List Table 2 Accent 4;
+\lsdpriority48 \lsdlocked0 List Table 3 Accent 4;\lsdpriority49 \lsdlocked0 List Table 4 Accent 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 4;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 4;
+\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 List Table 2 Accent 5;\lsdpriority48 \lsdlocked0 List Table 3 Accent 5;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 5;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 5;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 5;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 List Table 2 Accent 6;\lsdpriority48 \lsdlocked0 List Table 3 Accent 6;\lsdpriority49 \lsdlocked0 List Table 4 Accent 6;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Mention;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Smart Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hashtag;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Unresolved Mention;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Smart Link;}}{\*\datastore 01050000
+02000000180000004d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e500000000000000000000000080e8
+4c0f71c7d801feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}
